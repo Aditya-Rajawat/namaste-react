@@ -21,3 +21,41 @@ const HeadingComponent = () => {
 
 root.render(jsxheading)
 root.render(<HeadingComponent />)
+
+// --------------------------------------------------------------------------------
+    
+const Title = () => {
+    return <h1>Namaste-React 🚀 in JSX</h1>
+}
+
+// React Element
+const heading1 = (
+    <h1>Heading 1</h1>
+)
+
+const heading2 = (
+    <>
+    <h1>Heading 2</h1>
+    {heading1}
+    </>
+)
+
+const number = 1000;
+
+// Component Composition
+const HeadingComponent = () => (
+    <>
+    {heading1}
+    {heading2}
+    <h2>{number}</h2>
+    {Title()}
+    <Title />
+    <Title></Title>
+    <h1>React functional Component</h1>
+    </>
+)
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+root.render(<HeadingComponent />)
+
