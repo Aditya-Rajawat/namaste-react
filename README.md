@@ -4,7 +4,7 @@ EPISODE-1 (Inception)
 
 Topics covered :
 
-How to add & make changes to an element using JavaScript, React & HTML.
-What is CDN ?
-What is crossorigin in script tag ?
-Nested Elements
+1. How to add & make changes to an element using JavaScript, React & HTML.
+2. What is CDN ?
+3. What is crossorigin in script tag ?
+4. Nested Elements
