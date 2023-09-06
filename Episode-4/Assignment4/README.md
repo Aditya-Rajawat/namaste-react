@@ -23,5 +23,18 @@
 - What is Virtual DOM in react?
 
   A virtual DOM is a lightweight JavaScript object which originally is just a copy of the real DOM. It is a node tree that lists the elements, their attributes and   content as Objects and their properties.  
-  
+
+- What is Reconciliation in react?
+
+  Reconciliation is the process by which React updates the UI to reflect changes in the component state. The reconciliation algorithm is the set of rules that        React uses to determine how to update the UI in the most efficient way possible.
+
+  React uses a virtual DOM (Document Object Model) to update the UI.
+
+  The reconciliation algorithm works by comparing the current virtual DOM tree to the updated virtual DOM tree, and making the minimum number of changes necessary    to bring the virtual DOM in line with the updated state.
+
+  The algorithm uses two main techniques to optimize updates:
+
+  🚀 Tree diffing: React compares the current virtual DOM tree with the updated virtual DOM tree, and identifies the minimum number of changes necessary to bring    the virtual DOM in line with the updated state.
+
+  🚀 Batching: React batches multiple changes into a single update, reducing the number of updates to the virtual DOM and, in turn, the real DOM.
   
