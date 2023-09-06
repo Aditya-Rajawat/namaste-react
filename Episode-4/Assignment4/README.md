@@ -22,7 +22,7 @@
   
 - What is Virtual DOM in react?
 
-  A virtual DOM is a lightweight JavaScript object which originally is just a copy of the real DOM. It is a node tree that lists the elements, their attributes and   content as Objects and their properties.  
+  A virtual DOM is a lightweight JavaScript object which originally is just a copy of the real DOM. It is a node tree that lists the elements, their attributes and   content as Objects and their properties. It make the updation process of UI much more faster and also reduces costs and time.  
 
 - What is Reconciliation in react?
 
