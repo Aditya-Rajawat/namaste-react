@@ -1,3 +1,1 @@
-Namaste-React webseries 🚀
-
-by Akshay Saini
+- *Namaste-React webseries 🚀 by Akshay Saini*
